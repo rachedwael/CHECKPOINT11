@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>Site | Wael RACHED</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header>
+        
+
+
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>    
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                      <li><a href="#" class="espace-membre-link">ESPACE MEMBRE</a></li>
+                      <li><a href="#acceuil"  class="active acceuil-link">ACCEUIL</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#inscrire" class="inscrire-link">S'INSCRIRE</a></li>
+                    <li><a href="#conecter" class="conecter-link">SE CONNECTER</a></li>
+                  </ul>
+                </div>
+                </div>
+              </nav>
+  </header>
+
+  <main class="acceuil ">
+        <div class="container-fluide">
+      
+          <div class="img-full-width">
+              <div class="introduction-welcom">
+                  <h2 class="name-devlopper">Rached Wael </h2>
+                  <h1 class="text-devlopper">"bienvenue vous etes maintenant connecté dans notre espace membre"</h1>
+              </div>
+          </div>
+       </div>
+      
+       <div class="container newsleter-container">
+      
+              <div class="newsleter-content">
+                      <h1 class="newslettre-name">Newslettre</h1> 
+                      <h1 class="newslettre-introduction">Abonnez-vous à notre Newslettre pour les dernières nouvelles, promotions et offres</h1>
+                      <div>
+                      <input class="email-input" type="email" placeholder="Votre E-mail..."><button class="btn-send" ><i class="fas fa-mars"></i></button>
+                      </div>
+              </div>
+           </div>
+ </main>
+
+
+<main class="inscrire hidden">
+  
+        <div class="container-fluid">
+            <div class="row">
+                  <div class="col-lg-6 col-md-6 register-container">
+                    <img class="img-register" src="3.png">
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <h1 class="inscrivez-vous">Inscrivez-Vous</h1>  
+                    <form class="form-inscription" onsubmit="return verifForm()" >
+                        <input type="text" class="text-zone full-name" placeholder="&#xf040 Nom complet" onblur="verifName(this)" >
+                        <input type="text" class="text-zone pseudo" placeholder="&#xf007 Pseudo" onblur="verifPseudo(this)" />
+                        <input type="text" class="text-zone email-pseudo" placeholder="&#xf0e0 Email" onblur="verifMail(this)">
+                        <input type="password" class="text-zone pass-word" placeholder="&#xf13e Mot de Passe">
+                        <input type="password" class="text-zone confirm-pass-word" placeholder="&#xf13e Confirmation votre Mot de Passe">
+                        <div class="Conditions-container"><input type="checkbox" id="terme-condition" class="condition-terme">
+                        <label for="terme-condition">J'accepte les <a href="">Terms et Conditions</a></label></div>
+                        <input type="submit" class="btn-submit" >
+                        <label for="terme-condition">Vous avez deja un compte?  <a href="">Connecter-Vous</a></label>
+                    </form>
+                    </div>
+            </div>
+        </div>
+
+
+
+
+
+</main>
+
+
+
+<main class="connecter hidden">
+    <div class="container-fluid">
+        <div class="row">
+              <div class="col-lg-6 col-md-6 sign-in-container">
+                <img class="img-sign-in" src="2.jpg">
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <h1 class="connectez-vous inscrivez-vous">Connectez-vous</h1>
+
+                <form class="form-connecter"> 
+
+                    <input type="text" class="zone-connecte text-zone" placeholder="&#xf007 Pseudo">
+
+                    <input type="password" class="zone-connecte text-zone" placeholder="&#xf13e Mot de Passe">
+
+                    <div class="reste-conecter">
+                        <input type="checkbox" id="chek-connect" class="chek-connect-class"><label for="chek-connect">Reste connecté</label> 
+                    
+                        <label class="password-label">Mot de passe Oublié?</label>
+                    
+                    </div>
+
+                    <input type="submit" class="btn-submit-connect" value="Se Connecter">
+
+                </form>
+                <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+                    <button class="btn-facebook"><i class="fab fa-facebook-f fb"></i> Facebook</button> <button class="btn-twitter"><i class="fab fa-twitter tw"></i>Twitter</button>
+                </div>    
+                </div>
+        </div>
+    </div>
+
+</main>
+
+
+
+<footer class="container-fluide footer">
+        <div class=" container footer-head">
+            <div class="footer-container ">
+               <h4 class="copie-right">Tous les droits sont réservés. Site par Wael RACHED </h4>
+            <ul class="social-media">
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-skype"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-github-square"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+            </ul> 
+            </div>
+            
+        </div>
+</footer>
+<script src="index.pack.js"></script>
+  </body>
+  </html>

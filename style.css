@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar
+{
+    background-color: #f8f9fa;
+    height: 60px;
+     margin-bottom: 0px !important;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.navbar-nav{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+   
+
+}
+
+.img-full-width{
+    background: url(https://static1.squarespace.com/static/57decfb7cd0f68d6292d3a20/t/57dee3505016e1d6372238e2/1498405484367/dark_black_and_white_abstract_black_background_76353_1366x768.jpg?format=1500w) no-repeat;
+    
+    height: 310px;
+    position: relative;
+}
+
+.introduction-welcom{
+    position: absolute;
+    border:2px solid blue;
+    width: 550px;
+    right:  30%;
+    top: 100px;
+}
+.text-devlopper{
+    color: white;
+    font-size: 28px;
+    line-height:50px;
+    text-align: center
+
+}
+.name-devlopper{
+    color: cyan;
+    font-size: 24px;
+    text-align: center
+
+}
+.newsleter-container{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.newsleter-content{
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.newslettre-introduction{
+    color: darkgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height:29px;
+    margin-bottom: 35px;
+
+}
+
+.newslettre-name{
+    margin-bottom: 25px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.email-input{
+    padding: 5px;
+    width: 290px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 2px 5px 5px gainsboro;
+}
+.btn-send{
+    border-radius: 50px;
+    background-color: #8fcc59;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.footer{
+      background-color:black; 
+      height: 60px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 15px;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+    justify-content: space-around
+}
+li{
+    color: white;
+    margin-left:20px; 
+}
+.copie-right{
+    color: white !important;
+
+}
+
+
+.navbar-default .navbar-nav>li>a.active, .navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
+
+     color: #8fcc59 !important;
+     font-weight: bold;
+}
+
+.img-register{
+    margin: 0;
+    width: 100% ;
+    height:auto;
+}
+.col-lg-6{
+    padding: 0px !important;
+}
+
+.form-inscription{
+margin-top:50px; 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.text-zone{
+    padding-left: 20px;
+ 
+        font-family: sans-serif, 'FontAwesome';
+ 
+    width: 400px;
+    margin-bottom: 30px;
+    height: 40px;
+    border: 1px solid #5fa018;
+}
+.btn-submit{
+    width: 400px;
+    height: 40px;
+    background-color: #5fa018;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Conditions-container{
+    display: flex;
+
+}
+.inscrivez-vous{
+    margin-left: 137px;
+}
+.terme-condition{
+    align-content: flex-start;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-sign-in{
+    margin: 0;
+    width: 100% ;
+    height:500px;
+}
+
+
+
+
+
+
+.form-connecter{
+    margin-top:50px; 
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+    .btn-submit-connect{
+        width: 400px;
+        height: 40px;
+        background-color: #5fa018;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .reste-conecter{
+        display: flex;
+        margin-bottom: 20px;
+        
+    }
+    .password-label{
+        margin-left: 120px;
+    }
+
+    .btn-facebook{
+        width: 130px;
+        height: 50px;
+        border: 2px solid #4267b2;
+        background-color: transparent;
+        border-radius: 7px;
+        color: #4267b2;
+    }
+    .btn-twitter{
+        width: 130px;
+        height: 50px;
+        border: 2px solid #1da1f2;
+        background-color: transparent;
+        border-radius: 7px;
+        color: #1da1f2;
+    }
+    .fb{
+        color: #4267b2 !important;
+    }
+    .tw{
+        color: #1da1f2 !important;
+    }
